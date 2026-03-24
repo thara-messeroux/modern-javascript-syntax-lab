@@ -26,12 +26,31 @@ const CustomButton = ({ color, name }) => {
   );
 };
 
+const Todo = (props) => {
+  const { todo } = props
+  const taskComplete = todo.done ? "Task Complete" : "";
+
+  return (
+    <div>
+      <h1>{todo.text} -  <em style={{color: 'red'}}>{taskComplete}</em></h1>
+    </div>
+  );
+};
+
 function App(props) {
   // We can write any business logic inside of the function before the return
-  const todo = { text: 'A brand new task', done: true };
+  const todo = { text: "A brand new task", done: true };
 
-  const taskComplete = todo.done ? "Task Complete" : ""
-  
+  const todos = [
+   { text: "Learn JavaScript", done: true }, 
+    { text: "Learn JSX", done: false },
+    { text: "Learn HTML", done: true },
+    { text: "Learn CSS", done: true },
+    { text: "Master React", done: false },
+  ];
+
+  const taskComplete = todo.done ? "Task Complete" : "";
+
   return (
     <div className="bg-blue font-red">
       <h1>Hello world!!!!!!!!</h1>
@@ -46,10 +65,15 @@ function App(props) {
       <CustomButton isLoggedIn={true} name="Carlos" color="red"></CustomButton>
 
       <div>
-        <h1><em>{todo.text}</em></h1>
-        <p>{taskComplete}</p>
+        <h1>
+          <em>{todo.text}</em>
+        </h1>
+        <p>{todo.done ? "Task Complete" : ""}</p>
       </div>
+        
+          { todos.map(t => <Todo todo={t} />) }
     </div>
+
   );
 }
 
