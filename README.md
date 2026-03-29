@@ -1,10 +1,58 @@
 # modern-javascript-syntax-lab
 
+---
+
 ## Step 1 🐼
-Used map() to create a new array where each number is multiplied by 2.
+**map() → transform each item in an array**
+
+- nums = [1, 2, 3]  
+- doubled = nums.map(n => n * 2)  
+- result → [2, 4, 6]
+
+---
 
 ## Step 2 🦊
-Used array destructuring to extract first and second toppings.
+**Array destructuring → grab values by position**
+
+- toppings = ["cheese", "pepperoni"]  
+- first = cheese  
+- second = pepperoni  
+
+---
 
 ## Step 3 🐯
-Used object destructuring to extract make and model from an object.
+**Object destructuring → grab values by name**
+
+- car = { make: "Audi", model: "Q5" }  
+- make = Audi  
+- model = Q5  
+
+---
+
+## Step 4 🐸
+**Spread (arrays) → copy array safely**
+
+- a = [1, 2]  
+- b = [...a]  
+- b becomes [1, 2, 3] after adding 3  
+- a stays [1, 2]  
+
+---
+
+## Step 5 🦁
+**Logical OR (||) → fallback/default value**
+
+- name = "" || "Guest"  
+- result → Guest  
+
+---
+
+## 🧠 Key Takeaways
+
+- map() → change each item in a list  
+- destructuring → extract values easily  
+- spread (...) → copy safely (avoid bugs)  
+- || → provide default value  
+
+👉 Rule:  
+Always **copy first → then modify**
