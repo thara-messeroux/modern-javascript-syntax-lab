@@ -22,7 +22,6 @@ const numsTimesTwo = nums.map((num) => {
 console.log(numsTimesTwo);
 
 
-
 // ! Exercise 2:
 // a. Given the provided `pizzaToppings` array, use destructuring to extract 
 //    the first and second values and place them into variables. Name the 
@@ -44,3 +43,21 @@ const [firstIngredient, secondIngredient] = pizzaToppings;
 
 console.log(firstIngredient);
 console.log(secondIngredient);
+
+
+// ! Exercise 3:
+
+const car = {
+  make: "Audi",
+  model: "Q5"
+};
+
+// Your code here:
+
+// Exercise 3 🐯
+
+// destructuring object = pull values by key name
+const { make, model } = car;
+
+console.log(make);
+console.log(model);
