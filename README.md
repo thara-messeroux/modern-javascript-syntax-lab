@@ -90,6 +90,16 @@
 
 ---
 
+## Step/Exercise 10 🐙
+**Boolean gates → control logic with `&&` and `||`**
+
+- `isLoggedIn && console.log('Welcome back!')`
+- runs only if true  
+- `username = '' || 'Guest'`
+- fallback value → `Guest`
+
+---
+
 ## 🧠 Key Takeaways
 
 - `map()` → change each item in a list  

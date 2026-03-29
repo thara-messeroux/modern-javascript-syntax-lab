@@ -148,3 +148,22 @@ const score = 85;
 const result = score >= 60 ? 'Pass' : 'Fail';
 
 console.log(result);
+
+
+// ! Exercise 10:
+
+// a. Use `&&` to log a message if a variable is true.
+//
+// b. Use `||` to assign a default value.
+//
+// c. Combine them in a useful example.
+
+// Your code here:
+
+const isLoggedIn = true;
+
+isLoggedIn && console.log('Welcome back!');
+
+const username = '' || 'Guest';
+
+console.log(username);
