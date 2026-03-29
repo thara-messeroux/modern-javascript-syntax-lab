@@ -50,6 +50,14 @@
 - `newCar` stays the original copy
 ---
 
+## Step/Exercise 6 🐼
+**Dynamic keys → use variables as object keys**
+
+- `mySportsTeam = 'celtics'`
+- `sportsProfile = { [mySportsTeam]: 'Boston Celtics' }`
+- key is created from variable
+- result → `{ celtics: 'Boston Celtics' }`
+
 ## 🧠 Key Takeaways
 
 - `map()` → change each item in a list  

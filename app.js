@@ -94,3 +94,24 @@ myCar.model = 'Camry';
 
 console.log(myCar);
 console.log(newCar);
+
+// ! Exercise 6:
+
+// a. Define a variable named `mySportsTeam` and assign a string (like 
+//    'warriors', 'lakers', or 'celtics') to it.
+//
+// b. Create an object named `sportsProfile`.
+//
+// c. Use `mySportsTeam` as a dynamic key in `sportsProfile`. Assign it a 
+//    relevant value.
+//
+// d. Console log the `sportsProfile` object to see the result.
+
+// Your code here:
+const mySportsTeam = 'celtics';
+
+const sportsProfile = {
+  [mySportsTeam]: 'Boston Celtics',
+};
+
+console.log(sportsProfile);
