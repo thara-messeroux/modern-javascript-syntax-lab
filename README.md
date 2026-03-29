@@ -70,6 +70,16 @@
 
 ---
 
+## Step/Exercise 8 🐧
+**Default parameters → set default values in functions**
+
+- `describe(noun = 'cat', adjective = 'sleepy')`
+- default values used if nothing is passed
+- `describe()` → `The cat is sleepy`
+- `describe('dog', 'happy')` → `The dog is happy`
+
+---
+
 ## 🧠 Key Takeaways
 
 - `map()` → change each item in a list  

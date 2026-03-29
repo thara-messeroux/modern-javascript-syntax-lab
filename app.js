@@ -115,3 +115,23 @@ const sportsProfile = {
 };
 
 console.log(sportsProfile);
+
+// ! Exercise 8:
+
+// a. Create a function with two parameters, `noun` and `adjective`.
+//
+// b. Give `noun` a default value of 'cat' and `adjective` a default value of 
+//    'sleepy'.
+//
+// c. The function should log a sentence. The cat is sleepy.
+//
+// d. The function should log a sentence with provided arguments.
+
+// Your code here:
+
+function describe(noun = 'cat', adjective = 'sleepy') {
+  console.log(`The ${noun} is ${adjective}.`);
+}
+
+describe();
+describe('dog', 'happy');
