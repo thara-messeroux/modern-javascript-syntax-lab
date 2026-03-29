@@ -167,3 +167,25 @@ isLoggedIn && console.log('Welcome back!');
 const username = '' || 'Guest';
 
 console.log(username);
+
+// ✅ part (c) combined example
+isLoggedIn && console.log(`Hello ${username}`);
+
+// ! Exercise 11:
+
+// a. Create an object that contains a complex key that contains nested data.
+//
+// b. Use optional chaining to access nested data.
+//
+// c. Use optional chaining to safely access data that might not exist.
+
+// Starting code (don't modify this):
+
+const user = {
+  name: 'Alex',
+};
+
+// Your code here:
+
+console.log(user?.name);        // exists
+console.log(user?.address?.city); // does NOT exist (safe)

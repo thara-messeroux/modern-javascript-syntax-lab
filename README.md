@@ -97,6 +97,17 @@
 - runs only if true  
 - `username = '' || 'Guest'`
 - fallback value → `Guest`
+- combined → `isLoggedIn && console.log(\`Hello ${username}\`)`
+
+---
+
+## Step/Exercise 11 🐬
+**Optional chaining → safely access nested data**
+
+- `user = { name: 'Alex' }`
+- `user?.name` → `Alex`
+- `user?.address?.city` → `undefined`
+- prevents errors when data is missing
 
 ---
 
