@@ -113,10 +113,16 @@
 
 ## 🧠 Key Takeaways
 
-- `map()` → change each item in a list  
-- destructuring → extract values easily  
-- spread `...` → copy safely (avoid bugs)  
-- `||` → provide default value  
+- `map()` → transform each item in an array  
+- `destructuring` → extract values from arrays/objects easily  
+- `spread ...` → copy arrays/objects safely (avoid bugs)  
+- `dynamic keys` → use variables as object keys  
+- `import/export` → organize code into reusable files  
+- `default parameters` → set fallback values in functions  
+- `ternary ? :` → write short if/else logic  
+- `&&` → run code only if condition is true  
+- `||` → provide default value when something is empty  
+- `?.` (optional chaining) → safely access nested data  
 
-✊🏾 Rule:  
-Always **copy first → then modify**
+✊🏾 Rule:
+Always copy first → then modify (avoid mutating original data)
