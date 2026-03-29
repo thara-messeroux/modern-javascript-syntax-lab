@@ -2,7 +2,7 @@
 
 ---
 
-## Step 1 🐼
+## Step/Exercise 1 🐼
 **map() → transform each item in an array**
 
 - `nums = [1, 2, 3]`  
@@ -11,7 +11,7 @@
 
 ---
 
-## Step 2 🦊
+## Step/Exercise 2 🦊
 **Array destructuring → grab values by position**
 
 - `toppings = ["cheese", "pepperoni"]`  
@@ -20,7 +20,7 @@
 
 ---
 
-## Step 3 🐯
+## Step/Exercise 3 🐯
 **Object destructuring → grab values by name**
 
 - `car = { make: "Audi", model: "Q5" }`  
@@ -29,7 +29,7 @@
 
 ---
 
-## Step 4 🐸
+## Step/Exercise 4 🐸
 **Spread (arrays) → copy array safely**
 
 - `a = [1, 2]`  
@@ -39,12 +39,15 @@
 
 ---
 
-## Step 5 🦁
-**Logical OR (||) → fallback/default value**
+## Step/Exercise 5 🦁
+**Spread on objects → copy object safely**
 
-- `name = "" || "Guest"`  
-- result → `Guest`  
-
+- `myCar = { make: 'Mazda', model: '3' }`
+- `newCar = { ...myCar }`
+- change `myCar.make = 'Toyota'`
+- change `myCar.model = 'Camry'`
+- `myCar` changes  
+- `newCar` stays the original copy
 ---
 
 ## 🧠 Key Takeaways

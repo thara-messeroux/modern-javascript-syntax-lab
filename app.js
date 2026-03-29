@@ -71,8 +71,8 @@ const uncontroversialPizzaToppings = [...morePizzaToppings];
 console.log(uncontroversialPizzaToppings);
 
 // ! Exercise 5:
-// a. Duplicate the provided `anotherCar` object and spread its values into a 
-//    new variable named `myCar`.
+// a. Duplicate the provided `myCar` object and spread its values into a 
+//    new variable named `newCar`.
 //
 // b. Change the `make` and `model` properties of the `myCar` object to new 
 //    values.
@@ -81,17 +81,16 @@ console.log(uncontroversialPizzaToppings);
 //
 // Starting code (don't modify this):
 
-const anotherCar = {
-  make: 'Toyota',
-  model: 'RAV4',
+const myCar = {
+  make: 'Mazda',
+  model: '3',
 };
 
 // Your code here:
+const newCar = { ...myCar };
 
-// Exercise 10 🦁
+myCar.make = 'Toyota';
+myCar.model = 'Camry';
 
-// OR (||) = "if left is empty → use right"
-const lang = localLangConfig || 'en';
-
-console.log(lang);
-
+console.log(myCar);
+console.log(newCar);
