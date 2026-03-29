@@ -58,6 +58,18 @@
 - key is created from variable
 - result → `{ celtics: 'Boston Celtics' }`
 
+---
+
+## Step/Exercise 7 🐨
+**import / export → share code between files**
+
+- `export default 'Matt'` from one file  
+- `import name from './exportingFile.js'` in another file  
+- run → `node importingFile.js`  
+- result → `Matt`
+
+---
+
 ## 🧠 Key Takeaways
 
 - `map()` → change each item in a list  
