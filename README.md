@@ -80,6 +80,16 @@
 
 ---
 
+## Step/Exercise 9 🐺
+**Ternary operator → short if/else**
+
+- `score = 85`
+- `result = score >= 60 ? 'Pass' : 'Fail'`
+- condition true → `Pass`
+- result → `Pass`
+
+---
+
 ## 🧠 Key Takeaways
 
 - `map()` → change each item in a list  

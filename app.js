@@ -135,3 +135,16 @@ function describe(noun = 'cat', adjective = 'sleepy') {
 
 describe();
 describe('dog', 'happy');
+
+// ! Exercise 9:
+
+// a. Convert the following "if...else" statement into a ternary.
+
+// Starting code (don't modify this):
+
+const score = 85;
+
+// Your code here:
+const result = score >= 60 ? 'Pass' : 'Fail';
+
+console.log(result);
